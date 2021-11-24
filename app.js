@@ -5,7 +5,8 @@ const countries = require('./countries.json');
  * @returns {Object}
  */
 function getCountryByIso3(isoCode){
-    //Complete with your code
+const argentina = countries[10];
+
 }
 
 /**
@@ -30,6 +31,7 @@ function main() {
         '///// Ejercicio 1 /////\n',
         getCountryByIso3('ARG'),
         '\n');
+
     console.log(
         '///// Ejercicio 2 /////\n',
         getCountryTranslatedName('ARG', 'ja'),
